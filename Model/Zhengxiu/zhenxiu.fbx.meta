@@ -1,0 +1,1440 @@
+fileFormatVersion: 2
+guid: 24a28aa53bcdd1148ad00f7330aa3c2e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ______
+    100002: Bip01
+    100004: Bip01 L Finger0
+    100006: Bip01 L Finger01
+    100008: Bip01 L Finger0Nub
+    100010: Bip01 L Finger1
+    100012: Bip01 L Finger11
+    100014: Bip01 L Finger1Nub
+    100016: Bip01 L Finger2
+    100018: Bip01 L Finger21
+    100020: Bip01 L Finger2Nub
+    100022: Bip01 L Toe0Nub
+    100024: Bip01 Pelvis
+    100026: Bip01 R Finger0
+    100028: Bip01 R Finger01
+    100030: Bip01 R Finger0Nub
+    100032: Bip01 R Finger1
+    100034: Bip01 R Finger11
+    100036: Bip01 R Finger1Nub
+    100038: Bip01 R Finger2
+    100040: Bip01 R Finger21
+    100042: Bip01 R Finger2Nub
+    100044: Bip01 R Toe0Nub
+    100046: Bip01 Spine
+    100048: Bone02
+    100050: Bone03
+    100052: Bone04
+    100054: Bone05
+    100056: Bone07
+    100058: Bone08
+    100060: Bone09
+    100062: Bone10
+    100064: Bone12
+    100066: Bone13
+    100068: Bone14
+    100070: Bone15
+    100072: Bone17
+    100074: Bone18
+    100076: Bone19
+    100078: Bone20
+    100080: Bone22
+    100082: Bone24
+    100084: Bone28
+    100086: Bone29
+    100088: Bone30
+    100090: Bone31
+    100092: Bone32
+    100094: Bone34
+    100096: Bone35
+    100098: Bone36
+    100100: Bone37
+    100102: Bone38
+    100104: Bone40
+    100106: Bone41
+    100108: Bone42
+    100110: Bone45
+    100112: Bone47
+    100114: Bone48
+    100116: Bone50
+    100118: Bone51
+    100120: Bone52
+    100122: Bone55
+    100124: Bone56
+    100126: Bone57
+    100128: Frontbing
+    100130: Frontbingjiao
+    100132: Frontbingshao
+    100134: Head
+    100136: houbai
+    100138: jian
+    100140: Leftbing
+    100142: Leftbingjiao
+    100144: Leftdabi
+    100146: Leftdatui
+    100148: Leftfa
+    100150: Leftfaduan
+    100152: Leftfashao
+    100154: Leftjian
+    100156: Leftjiao
+    100158: Leftjiaojian
+    100160: Leftshou
+    100162: Leftxiaobi
+    100164: Leftxiaotui
+    100166: Leftxiudi
+    100168: Leftxiumian
+    100170: Leftxiumianqian
+    100172: Leftxiushang
+    100174: Leftxiuxia
+    100176: Leftyudai1
+    100178: Leftyudai2
+    100180: qunbaice
+    100182: qunbaihou
+    100184: qunbaiqian
+    100186: qundai1
+    100188: qundai2
+    100190: Rightbing
+    100192: Rightbingjiao
+    100194: Rightdabi
+    100196: Rightdatui
+    100198: Rightfa
+    100200: Rightfashao
+    100202: Rightjian
+    100204: Rightjiao
+    100206: Rightjiaojian
+    100208: Rightshou
+    100210: Rightxiaobi
+    100212: Rightxiaotui
+    100214: Rightxiudi
+    100216: Rightxiumian
+    100218: Rightxiumianqian
+    100220: Rightxiushang
+    100222: Rightxiuxia
+    100224: Rightyudai1
+    100226: Rightyudai2
+    100228: xiaoyudai1
+    100230: xiaoyudai2
+    100232: xiong
+    100234: yao
+    100236: //RootNode
+    400000: ______
+    400002: Bip01
+    400004: Bip01 L Finger0
+    400006: Bip01 L Finger01
+    400008: Bip01 L Finger0Nub
+    400010: Bip01 L Finger1
+    400012: Bip01 L Finger11
+    400014: Bip01 L Finger1Nub
+    400016: Bip01 L Finger2
+    400018: Bip01 L Finger21
+    400020: Bip01 L Finger2Nub
+    400022: Bip01 L Toe0Nub
+    400024: Bip01 Pelvis
+    400026: Bip01 R Finger0
+    400028: Bip01 R Finger01
+    400030: Bip01 R Finger0Nub
+    400032: Bip01 R Finger1
+    400034: Bip01 R Finger11
+    400036: Bip01 R Finger1Nub
+    400038: Bip01 R Finger2
+    400040: Bip01 R Finger21
+    400042: Bip01 R Finger2Nub
+    400044: Bip01 R Toe0Nub
+    400046: Bip01 Spine
+    400048: Bone02
+    400050: Bone03
+    400052: Bone04
+    400054: Bone05
+    400056: Bone07
+    400058: Bone08
+    400060: Bone09
+    400062: Bone10
+    400064: Bone12
+    400066: Bone13
+    400068: Bone14
+    400070: Bone15
+    400072: Bone17
+    400074: Bone18
+    400076: Bone19
+    400078: Bone20
+    400080: Bone22
+    400082: Bone24
+    400084: Bone28
+    400086: Bone29
+    400088: Bone30
+    400090: Bone31
+    400092: Bone32
+    400094: Bone34
+    400096: Bone35
+    400098: Bone36
+    400100: Bone37
+    400102: Bone38
+    400104: Bone40
+    400106: Bone41
+    400108: Bone42
+    400110: Bone45
+    400112: Bone47
+    400114: Bone48
+    400116: Bone50
+    400118: Bone51
+    400120: Bone52
+    400122: Bone55
+    400124: Bone56
+    400126: Bone57
+    400128: Frontbing
+    400130: Frontbingjiao
+    400132: Frontbingshao
+    400134: Head
+    400136: houbai
+    400138: jian
+    400140: Leftbing
+    400142: Leftbingjiao
+    400144: Leftdabi
+    400146: Leftdatui
+    400148: Leftfa
+    400150: Leftfaduan
+    400152: Leftfashao
+    400154: Leftjian
+    400156: Leftjiao
+    400158: Leftjiaojian
+    400160: Leftshou
+    400162: Leftxiaobi
+    400164: Leftxiaotui
+    400166: Leftxiudi
+    400168: Leftxiumian
+    400170: Leftxiumianqian
+    400172: Leftxiushang
+    400174: Leftxiuxia
+    400176: Leftyudai1
+    400178: Leftyudai2
+    400180: qunbaice
+    400182: qunbaihou
+    400184: qunbaiqian
+    400186: qundai1
+    400188: qundai2
+    400190: Rightbing
+    400192: Rightbingjiao
+    400194: Rightdabi
+    400196: Rightdatui
+    400198: Rightfa
+    400200: Rightfashao
+    400202: Rightjian
+    400204: Rightjiao
+    400206: Rightjiaojian
+    400208: Rightshou
+    400210: Rightxiaobi
+    400212: Rightxiaotui
+    400214: Rightxiudi
+    400216: Rightxiumian
+    400218: Rightxiumianqian
+    400220: Rightxiushang
+    400222: Rightxiuxia
+    400224: Rightyudai1
+    400226: Rightyudai2
+    400228: xiaoyudai1
+    400230: xiaoyudai2
+    400232: xiong
+    400234: yao
+    400236: //RootNode
+    4300000: ______
+    7400000: Take 001
+    7400002: attack
+    7400004: stand
+    7400006: attacked
+    9500000: //RootNode
+    13700000: ______
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ______
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian/Bip01
+          R Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian/Bip01
+          L Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37/Bone38
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31/Bone32
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao/Frontbingshao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing/Leftbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao/Leftfaduan
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing/Rightbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa/Rightfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01/Bip01 R Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11/Bip01 R Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21/Bip01 R Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian/Leftxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia/Leftxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01/Bip01 L Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11/Bip01 L Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21/Bip01 L Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian/Rightxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia/Rightxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41/Bone42
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56/Bone57
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47/Bone48
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51/Bone52
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1/Bone22
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2/Bone24
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ______
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian/Bip01
+          R Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian/Bip01
+          L Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37/Bone38
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31/Bone32
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao/Frontbingshao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing/Leftbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao/Leftfaduan
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing/Rightbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa/Rightfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01/Bip01 R Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11/Bip01 R Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21/Bip01 R Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian/Leftxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia/Leftxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01/Bip01 L Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11/Bip01 L Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21/Bip01 L Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian/Rightxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia/Rightxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41/Bone42
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56/Bone57
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47/Bone48
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51/Bone52
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1/Bone22
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2/Bone24
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ______
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian/Bip01
+          R Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian/Bip01
+          L Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37/Bone38
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31/Bone32
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao/Frontbingshao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing/Leftbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao/Leftfaduan
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing/Rightbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa/Rightfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01/Bip01 R Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11/Bip01 R Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21/Bip01 R Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian/Leftxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia/Leftxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01/Bip01 L Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11/Bip01 L Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21/Bip01 L Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian/Rightxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia/Rightxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41/Bone42
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56/Bone57
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47/Bone48
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51/Bone52
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1/Bone22
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2/Bone24
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attacked
+      takeName: Take 001
+      firstFrame: 108
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ______
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Leftdatui/Leftxiaotui/Leftjiao/Leftjiaojian/Bip01
+          R Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Rightdatui/Rightxiaotui/Rightjiao/Rightjiaojian/Bip01
+          L Toe0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai1/Bone34/Bone35/Bone36/Bone37/Bone38
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiaoyudai2/Bone28/Bone29/Bone30/Bone31/Bone32
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Frontbing/Frontbingjiao/Frontbingshao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftbing/Leftbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Leftfa/Leftfashao/Leftfaduan
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightbing/Rightbingjiao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Head/Rightfa/Rightfashao
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger0/Bip01 R Finger01/Bip01 R Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger1/Bip01 R Finger11/Bip01 R Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftshou/Bip01
+          R Finger2/Bip01 R Finger21/Bip01 R Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiumian/Leftxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftxiaobi/Leftxiuxia/Leftxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai1/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Leftjian/Leftdabi/Leftyudai2/Bone07/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger0/Bip01 L Finger01/Bip01 L Finger0Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger1/Bip01 L Finger11/Bip01 L Finger1Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightshou/Bip01
+          L Finger2/Bip01 L Finger21/Bip01 L Finger2Nub
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiumian/Rightxiumianqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiushang
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightxiaobi/Rightxiuxia/Rightxiudi
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai1/Bone12/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/yao/xiong/jian/Rightjian/Rightdabi/Rightyudai2/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/houbai/Bone40/Bone41/Bone42
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaice/Bone55/Bone56/Bone57
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaihou/Bone45/Bone47/Bone48
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qunbaiqian/Bone50/Bone51/Bone52
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai1/Bone22
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/qundai2/Bone24
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

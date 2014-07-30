@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: d481a1dda80bfd54b9d470f7ab4f2e83
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: calf.L
+    100004: calf.R
+    100006: foot.L
+    100008: foot.R
+    100010: forearm.L
+    100012: forearm.R
+    100014: hand.L
+    100016: hand.R
+    100018: head
+    100020: item.L
+    100022: item.R
+    100024: pCylinder1
+    100026: shoulder.L
+    100028: shoulder.R
+    100030: smdimport
+    100032: smdimport01
+    100034: smdimport02
+    100036: smdimport03
+    100038: smdimport04
+    100040: smdimport05
+    100042: smdimport06
+    100044: smdimport07
+    100046: smdimport08
+    100048: smdimport09
+    100050: smdimport10
+    100052: spine
+    100054: thigh.L
+    100056: thigh.R
+    100058: thorax
+    100060: upperarm.L
+    100062: upperarm.R
+    100064: //RootNode
+    400000: abdomen
+    400002: calf.L
+    400004: calf.R
+    400006: foot.L
+    400008: foot.R
+    400010: forearm.L
+    400012: forearm.R
+    400014: hand.L
+    400016: hand.R
+    400018: head
+    400020: item.L
+    400022: item.R
+    400024: pCylinder1
+    400026: shoulder.L
+    400028: shoulder.R
+    400030: smdimport
+    400032: smdimport01
+    400034: smdimport02
+    400036: smdimport03
+    400038: smdimport04
+    400040: smdimport05
+    400042: smdimport06
+    400044: smdimport07
+    400046: smdimport08
+    400048: smdimport09
+    400050: smdimport10
+    400052: spine
+    400054: thigh.L
+    400056: thigh.R
+    400058: thorax
+    400060: upperarm.L
+    400062: upperarm.R
+    400064: //RootNode
+    2300000: pCylinder1
+    3300000: pCylinder1
+    4300000: smdimport
+    4300002: smdimport01
+    4300004: smdimport02
+    4300006: smdimport03
+    4300008: smdimport04
+    4300010: smdimport05
+    4300012: smdimport06
+    4300014: smdimport07
+    4300016: smdimport08
+    4300018: smdimport09
+    4300020: smdimport10
+    4300022: pCylinder1
+    7400000: Take 001
+    7400002: attack
+    7400004: attacked
+    7400006: 108
+    7400008: stand
+    9500000: //RootNode
+    13700000: smdimport
+    13700002: smdimport01
+    13700004: smdimport02
+    13700006: smdimport03
+    13700008: smdimport04
+    13700010: smdimport05
+    13700012: smdimport06
+    13700014: smdimport07
+    13700016: smdimport08
+    13700018: smdimport09
+    13700020: smdimport10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: abdomen
+        weight: 1
+      - path: abdomen/spine
+        weight: 1
+      - path: abdomen/spine/thorax
+        weight: 1
+      - path: abdomen/spine/thorax/head
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L/item.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R/item.R
+        weight: 1
+      - path: abdomen/thigh.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L/foot.L
+        weight: 1
+      - path: abdomen/thigh.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R/foot.R
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: smdimport
+        weight: 1
+      - path: smdimport01
+        weight: 1
+      - path: smdimport02
+        weight: 1
+      - path: smdimport03
+        weight: 1
+      - path: smdimport04
+        weight: 1
+      - path: smdimport05
+        weight: 1
+      - path: smdimport06
+        weight: 1
+      - path: smdimport07
+        weight: 1
+      - path: smdimport08
+        weight: 1
+      - path: smdimport09
+        weight: 1
+      - path: smdimport10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: abdomen
+        weight: 1
+      - path: abdomen/spine
+        weight: 1
+      - path: abdomen/spine/thorax
+        weight: 1
+      - path: abdomen/spine/thorax/head
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L/item.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R/item.R
+        weight: 1
+      - path: abdomen/thigh.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L/foot.L
+        weight: 1
+      - path: abdomen/thigh.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R/foot.R
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: smdimport
+        weight: 1
+      - path: smdimport01
+        weight: 1
+      - path: smdimport02
+        weight: 1
+      - path: smdimport03
+        weight: 1
+      - path: smdimport04
+        weight: 1
+      - path: smdimport05
+        weight: 1
+      - path: smdimport06
+        weight: 1
+      - path: smdimport07
+        weight: 1
+      - path: smdimport08
+        weight: 1
+      - path: smdimport09
+        weight: 1
+      - path: smdimport10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attacked
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: abdomen
+        weight: 1
+      - path: abdomen/spine
+        weight: 1
+      - path: abdomen/spine/thorax
+        weight: 1
+      - path: abdomen/spine/thorax/head
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L/item.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R/item.R
+        weight: 1
+      - path: abdomen/thigh.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L/foot.L
+        weight: 1
+      - path: abdomen/thigh.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R/foot.R
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: smdimport
+        weight: 1
+      - path: smdimport01
+        weight: 1
+      - path: smdimport02
+        weight: 1
+      - path: smdimport03
+        weight: 1
+      - path: smdimport04
+        weight: 1
+      - path: smdimport05
+        weight: 1
+      - path: smdimport06
+        weight: 1
+      - path: smdimport07
+        weight: 1
+      - path: smdimport08
+        weight: 1
+      - path: smdimport09
+        weight: 1
+      - path: smdimport10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 108
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: abdomen
+        weight: 1
+      - path: abdomen/spine
+        weight: 1
+      - path: abdomen/spine/thorax
+        weight: 1
+      - path: abdomen/spine/thorax/head
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.L/upperarm.L/forearm.L/hand.L/item.L
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R
+        weight: 1
+      - path: abdomen/spine/thorax/shoulder.R/upperarm.R/forearm.R/hand.R/item.R
+        weight: 1
+      - path: abdomen/thigh.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L
+        weight: 1
+      - path: abdomen/thigh.L/calf.L/foot.L
+        weight: 1
+      - path: abdomen/thigh.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R
+        weight: 1
+      - path: abdomen/thigh.R/calf.R/foot.R
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: smdimport
+        weight: 1
+      - path: smdimport01
+        weight: 1
+      - path: smdimport02
+        weight: 1
+      - path: smdimport03
+        weight: 1
+      - path: smdimport04
+        weight: 1
+      - path: smdimport05
+        weight: 1
+      - path: smdimport06
+        weight: 1
+      - path: smdimport07
+        weight: 1
+      - path: smdimport08
+        weight: 1
+      - path: smdimport09
+        weight: 1
+      - path: smdimport10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
