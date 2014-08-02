@@ -1,20 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CWanicontrol : MonoBehaviour {
+public class QYcontrol : MonoBehaviour {
     Animator animator;
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
-    }
+	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (guiButton.chuwangActive)
+        if (guiButton.quyuanActive)
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
                 animator.Play("attack");
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                animator.Play("super-attack");
             }
             if (Input.GetKeyDown(KeyCode.D) || Input.GetMouseButtonDown(1))
             {
@@ -24,12 +28,12 @@ public class CWanicontrol : MonoBehaviour {
 	}
     void OnGUI()
     {
-        if (GUI.Button(new Rect(240, Screen.height - 100, 80, 100), new GUIContent("楚怀王","『衰楚』召唤该人物时，场上（双方）所有楚势力人物守备力减少\n『客死』僵尸技，血量为0后每回合需进行一次判定，判定为真时才真正死亡；血量为0时成为僵尸，攻击力加倍")))
+        if (GUI.Button(new Rect(320, Screen.height - 100, 80, 100), new GUIContent("屈原","『离骚』类似于高渐离的”击筑”技能\n『投江』该角色阵亡后，可以获得n张手牌，n取决于xxx(以后再说)")))
         {
             guiButton.boyaActive = false;
             guiButton.chunshenjunActive = false;
-            guiButton.chuwangActive = true;
-            guiButton.quyuanActive = false;
+            guiButton.chuwangActive = false;
+            guiButton.quyuanActive = true;
             guiButton.xiangyanActive = false;
             guiButton.zhengxiuActive = false;
         }

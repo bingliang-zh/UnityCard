@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BYanicontrol : MonoBehaviour {
+public class BYcontrol : MonoBehaviour {
     Animator animator;
 	// Use this for initialization
 	void Start () {

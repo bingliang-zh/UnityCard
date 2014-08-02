@@ -1,18 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CSJanicontrol : MonoBehaviour
+public class CSJcontrol : MonoBehaviour
 {
     Animator animator;
+    int blood;
     // Use this for initialization
     void Start()
     {
         animator = GetComponent<Animator>();
+        blood = 15;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (guiButton.xiangyanActive)
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                animator.Play("protect");
+                blood = blood - 8;
+            }
+        }
+        if (guiButton.quyuanActive)
+        {
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                animator.Play("protect");
+                blood = blood - 5;
+            }
+        }
+        if (guiButton.zhengxiuActive)
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                animator.Play("protect");
+                blood = blood - 3;
+            }
+        }
+        if (blood <= 0)
+        {
+            guiButton.chunshenjunActive = false;
+            guiButton.CSJdeadLabel = "春申君已经被你打死了！";
+            Destroy(GameObject.Find("chunshenjun"));
+        }
         if (guiButton.chunshenjunActive)
         {
             if (Input.GetKeyDown(KeyCode.A))
