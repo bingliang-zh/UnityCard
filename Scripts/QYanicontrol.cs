@@ -26,4 +26,17 @@ public class QYanicontrol : MonoBehaviour {
             }
         }
 	}
+    void OnGUI()
+    {
+        if (GUI.Button(new Rect(320, Screen.height - 100, 80, 100), new GUIContent("屈原","『离骚』类似于高渐离的”击筑”技能\n『投江』该角色阵亡后，可以获得n张手牌，n取决于xxx(以后再说)")))
+        {
+            guiButton.boyaActive = false;
+            guiButton.chunshenjunActive = false;
+            guiButton.chuwangActive = false;
+            guiButton.quyuanActive = true;
+            guiButton.xiangyanActive = false;
+            guiButton.zhengxiuActive = false;
+        }
+        GUI.Label(new Rect(Screen.width - 300, Screen.height - 100, 300, 100), GUI.tooltip);
+    }
 }

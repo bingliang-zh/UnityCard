@@ -8,8 +8,10 @@ public class guiButton : MonoBehaviour {
     public static bool quyuanActive;
     public static bool xiangyanActive;
     public static bool zhengxiuActive;
+    string activeLabel;
 	// Use this for initialization
 	void Start () {
+        activeLabel = "Active: NULL\n\nPlease Choose a Character Card.";
 	}
 	
 	// Update is called once per frame
@@ -19,59 +21,31 @@ public class guiButton : MonoBehaviour {
 
     void OnGUI()
     {
-        if(GUI.Button(new Rect(100, 50, 50, 30), "伯牙"))
+        GUI.Box(new Rect(Screen.width-110,0,110,130),"");
+        if(boyaActive)
         {
-            boyaActive = true;
-            chunshenjunActive = false;
-            chuwangActive = false;
-            quyuanActive = false;
-            xiangyanActive = false;
-            zhengxiuActive = false;
+            activeLabel = "Acitve: 伯牙\n\nControl:\na=attack d\\右键=protect";
         }
-        if(GUI.Button(new Rect(100, 100, 50, 30), "春申君"))
+        if (chunshenjunActive)
         {
-            chunshenjunActive = true;
-            boyaActive = false;
-            chuwangActive = false;
-            quyuanActive = false;
-            xiangyanActive = false;
-            zhengxiuActive = false;
+            activeLabel = "Acitve: 春申君\n\nControl:\na=attack s=super-attack d\\右键=protect";
         }
-        if (GUI.Button(new Rect(100, 150, 50, 30), "项燕"))
+        if (chuwangActive)
         {
-            xiangyanActive = true;
-            boyaActive = false;
-            chunshenjunActive = false;
-            chuwangActive = false;
-            quyuanActive = false;
-            zhengxiuActive = false;
+            activeLabel = "Acitve: 楚怀王\n\nControl:\na=attack d\\右键=protect";
         }
-        if (GUI.Button(new Rect(150, 50, 50, 30), "楚王"))
+        if (quyuanActive)
         {
-            boyaActive = false;
-            chunshenjunActive = false;
-            chuwangActive = true;
-            quyuanActive = false;
-            xiangyanActive = false;
-            zhengxiuActive = false;
+            activeLabel = "Acitve: 屈原\n\nControl:\na=attack s=super-attack d\\右键=protect";
         }
-        if (GUI.Button(new Rect(150, 100, 50, 30), "屈原"))
+        if (xiangyanActive)
         {
-            boyaActive = false;
-            chunshenjunActive = false;
-            chuwangActive = false;
-            quyuanActive = true;
-            xiangyanActive = false;
-            zhengxiuActive = false;
+            activeLabel = "Acitve: 项燕\n\nControl:\na=attack d\\右键=protect";
         }
-        if (GUI.Button(new Rect(150, 150, 50, 30), "郑袖"))
+        if (zhengxiuActive)
         {
-            boyaActive = false;
-            chunshenjunActive = false;
-            chuwangActive = false;
-            quyuanActive = false;
-            xiangyanActive = false;
-            zhengxiuActive = true;
+            activeLabel = "Acitve: 郑袖\n\nControl:\na=attack d\\右键=protect";
         }
+        GUI.Label(new Rect(Screen.width-100,10,90,110),activeLabel);
     }
 }

@@ -29,4 +29,17 @@ public class CSJanicontrol : MonoBehaviour
             }
         }
     }
+    void OnGUI()
+    {
+        if (GUI.Button(new Rect(80, Screen.height - 100, 80, 100), new GUIContent("春申君", "『移花接木』场上任意人物死亡时，可以选择获取他的一个技能")))
+        {
+            guiButton.chunshenjunActive = true;
+            guiButton.boyaActive = false;
+            guiButton.chuwangActive = false;
+            guiButton.quyuanActive = false;
+            guiButton.xiangyanActive = false;
+            guiButton.zhengxiuActive = false;
+        }
+        GUI.Label(new Rect(Screen.width - 300, Screen.height - 100, 300, 100), GUI.tooltip);
+    }
 }
