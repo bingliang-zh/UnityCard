@@ -3,11 +3,12 @@ using System.Collections;
 
 public class XYcontrol : MonoBehaviour {
     Animator animator;
+    static int init_blood = 10;
     int blood;
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
-        blood = 10;
+        blood = init_blood;
 	}
 	
 	// Update is called once per frame
@@ -33,11 +34,26 @@ public class XYcontrol : MonoBehaviour {
                 blood = blood - 3;
             }
         }
+        if (guiButton.quyuanActive)
+        {
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                animator.Play("recover");
+                blood = blood + 1;
+            }
+        }
+        if (guiButton.zhengxiuActive)
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                blood = blood + 1;
+                animator.Play("recover");
+            }
+        }
         if (blood <= 0)
         {
             guiButton.xiangyanActive = false;
-            guiButton.XYdeadLabel = "项燕已经被你打死了！";
-            Destroy(GameObject.Find("xiangyan"));
+            animator.Play("death");
         }
         if (guiButton.xiangyanActive)
         {
@@ -53,8 +69,14 @@ public class XYcontrol : MonoBehaviour {
 	}
     void OnGUI()
     {
+        float factor = (float)blood / (float)init_blood;
+        GUI.color = new Color(1 - factor, factor, 0);
         if (GUI.Button(new Rect(160, Screen.height - 100, 80, 100), new GUIContent("项燕","『世代为将』第N回合可召唤N个项氏人物为将\n『或死或亡』死亡后有一定机率可以复活一次，”世族”的回合数重新开始计算")))
         {
+            if (blood <= 0)
+            {
+                guiButton.activeLabel = "该角色已经死亡";
+            }
             guiButton.xiangyanActive = true;
             guiButton.boyaActive = false;
             guiButton.chunshenjunActive = false;

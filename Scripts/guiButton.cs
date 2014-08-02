@@ -8,14 +8,10 @@ public class guiButton : MonoBehaviour {
     public static bool quyuanActive;
     public static bool xiangyanActive;
     public static bool zhengxiuActive;
-    string activeLabel;
-    public static string XYdeadLabel;
-    public static string CSJdeadLabel;
+    public static string activeLabel;
 	// Use this for initialization
 	void Start () {
         activeLabel = "Active: NULL\n\nPlease Choose a Character Card.";
-        XYdeadLabel = "";
-        CSJdeadLabel = "";
 	}
 	
 	// Update is called once per frame
@@ -51,7 +47,5 @@ public class guiButton : MonoBehaviour {
             activeLabel = "Acitve: 郑袖\n\nControl:\na=attack d\\右键=protect";
         }
         GUI.Label(new Rect(Screen.width-100,10,90,110),activeLabel);
-        GUI.Label(new Rect(160, Screen.height - 100, 80, 100), XYdeadLabel);
-        GUI.Label(new Rect(80, Screen.height - 100, 80, 100), CSJdeadLabel);
     }
 }
