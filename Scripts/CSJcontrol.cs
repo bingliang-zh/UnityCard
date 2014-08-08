@@ -6,6 +6,7 @@ public class CSJcontrol : MonoBehaviour
     Animator animator;
     static int init_blood = 15;
     int blood;
+	public Texture2D card_textrue;
     // Use this for initialization
     void Start()
     {
@@ -73,7 +74,7 @@ public class CSJcontrol : MonoBehaviour
     {
         float factor = (float)blood / (float)init_blood;
         GUI.color = new Color(1-factor, factor, 0);
-        if (GUI.Button(new Rect(80, Screen.height - 100, 80, 100), new GUIContent("春申君", "『移花接木』场上任意人物死亡时，可以选择获取他的一个技能")))
+		if (GUI.Button(new Rect(80, Screen.height - 100, 80, 100), new GUIContent(card_textrue, "『移花接木』场上任意人物死亡时，可以选择获取他的一个技能")))
         {
             if (blood <= 0)
             {

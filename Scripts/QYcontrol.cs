@@ -3,6 +3,7 @@ using System.Collections;
 
 public class QYcontrol : MonoBehaviour {
     Animator animator;
+	public Texture2D card_textrue;
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
@@ -28,7 +29,7 @@ public class QYcontrol : MonoBehaviour {
 	}
     void OnGUI()
     {
-        if (GUI.Button(new Rect(320, Screen.height - 100, 80, 100), new GUIContent("屈原","『离骚』类似于高渐离的”击筑”技能\n『投江』该角色阵亡后，可以获得n张手牌，n取决于xxx(以后再说)")))
+		if (GUI.Button(new Rect(320, Screen.height - 100, 80, 100), new GUIContent(card_textrue,"『离骚』类似于高渐离的”击筑”技能\n『投江』该角色阵亡后，可以获得n张手牌，n取决于xxx(以后再说)")))
         {
             guiButton.boyaActive = false;
             guiButton.chunshenjunActive = false;

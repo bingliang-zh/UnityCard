@@ -5,6 +5,7 @@ public class XYcontrol : MonoBehaviour {
     Animator animator;
     static int init_blood = 10;
     int blood;
+	public Texture2D card_textrue;
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
@@ -71,7 +72,7 @@ public class XYcontrol : MonoBehaviour {
     {
         float factor = (float)blood / (float)init_blood;
         GUI.color = new Color(1 - factor, factor, 0);
-        if (GUI.Button(new Rect(160, Screen.height - 100, 80, 100), new GUIContent("项燕","『世代为将』第N回合可召唤N个项氏人物为将\n『或死或亡』死亡后有一定机率可以复活一次，”世族”的回合数重新开始计算")))
+		if (GUI.Button(new Rect(160, Screen.height - 100, 80, 100), new GUIContent(card_textrue,"『世代为将』第N回合可召唤N个项氏人物为将\n『或死或亡』死亡后有一定机率可以复活一次，”世族”的回合数重新开始计算")))
         {
             if (blood <= 0)
             {

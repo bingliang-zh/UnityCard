@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BYcontrol : MonoBehaviour {
     Animator animator;
+	public Texture2D card_textrue;
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
@@ -25,7 +26,7 @@ public class BYcontrol : MonoBehaviour {
     void OnGUI()
     {
         GUI.Box(new Rect(0, Screen.height - 100, Screen.width, 100), "");
-        if (GUI.Button(new Rect(0, Screen.height - 100, 80, 100), new GUIContent("伯牙", "『知音』每回合可选择场上任一人物进行判定，若为”知音”，双方同时回血\n『绝弦』若上一回合判定为”知音”的人物在这一回合死亡，”知音”技能消失")))
+		if (GUI.Button(new Rect(0, Screen.height - 100, 80, 100), new GUIContent(card_textrue, "『知音』每回合可选择场上任一人物进行判定，若为”知音”，双方同时回血\n『绝弦』若上一回合判定为”知音”的人物在这一回合死亡，”知音”技能消失")))
         {
             guiButton.boyaActive = true;
             guiButton.chunshenjunActive = false;
