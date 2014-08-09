@@ -2,32 +2,81 @@
 using System.Collections;
 
 public class ZXcontrol : MonoBehaviour {
-    Animator animator;
+	Animator animator;
 	public Texture2D card_textrue;
+	
+	static public bool flag = true;
+	static int init_blood = 100;
+	static public int attack = 20;
+	static public int defence = 1;
+	int blood;
+	
 	// Use this for initialization
 	void Start () {
-        animator = GetComponent<Animator>();
+		animator = GetComponent<Animator>();
+		blood = init_blood;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (guiButton.zhengxiuActive)
-        {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                animator.Play("attack");
-            }
-            if (Input.GetKeyDown(KeyCode.D) || Input.GetMouseButtonDown(1))
-            {
-                animator.Play("protect");
-            }
-        }
+		if (blood <= 0) {
+			flag=false;
+			guiButton.zhengxiuActive = false;
+			animator.Play("death");
+		}
+		else
+		{
+	        if (guiButton.zhengxiuActive)
+	        {
+	            if (Input.GetKeyDown(KeyCode.A))
+	            {
+	                animator.Play("attack");
+	            }
+	            if (Input.GetKeyDown(KeyCode.D) || Input.GetMouseButtonDown(1))
+	            {
+	                animator.Play("protect");
+	            }
+	        }
+			if (CSJcontrol.flag==false)
+			{
+				if (guiButton.xiangyanActive)
+				{
+					if (Input.GetKeyDown(KeyCode.A))
+					{
+						animator.Play("protect");
+						blood -= XYcontrol.attack-defence;
+					}
+				}
+				if (guiButton.boyaActive)
+				{
+					if (Input.GetKeyDown(KeyCode.A))
+					{
+						animator.Play("protect");
+						blood -= BYcontrol.attack-defence;
+					}
+				}
+				if (guiButton.quyuanActive)
+				{
+					if (Input.GetKeyDown(KeyCode.A))
+					{
+						animator.Play("protect");
+						blood -= QYcontrol.attack-defence;
+					}
+				}
+			}
+		}
 	}
     void OnGUI()
     {
-		if (GUI.Button(new Rect(400, Screen.height - 100, 80, 100), new GUIContent(card_textrue,"『误主』该人物处于前场时，对方主将每发动一次攻击或技能，作用对象可能随机地成为对方的一个副将\n『争宠』可使场上双方所有女性角色包括龙阳君、荆轲、邹忌等漂亮角色扣血")))
+		float factor = (float)blood / (float)init_blood;
+		GUI.color = new Color(1-factor, factor, 0);
+		if (GUI.Button(new Rect(400, Screen.height - 100, 80, 100), new GUIContent(card_textrue,
+		 "郑袖：100/20/1\n『误主』对方主将每发动一次攻击或技能，可能随机地（10%）失效")))
 		{
-			//GUI.DrawTexture(new Rect(400, Screen.height - 100, 80, 100),Zhengxiu,ScaleMode.StretchToFill,true,0);
+			if (blood <= 0)
+			{
+				guiButton.activeLabel = "该角色已经死亡";
+			}
             guiButton.boyaActive = false;
             guiButton.chunshenjunActive = false;
             guiButton.chuwangActive = false;
